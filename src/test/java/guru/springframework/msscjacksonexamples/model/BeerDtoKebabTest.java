@@ -11,9 +11,6 @@ import org.springframework.test.context.ActiveProfiles;
 @JsonTest
 class BeerDtoKebabTest extends  BaseTest{
 
-    @Autowired
-    ObjectMapper mapper;
-
     @Test
     void testKebab() throws JsonProcessingException {
         BeerDto dto = this.getDto();
